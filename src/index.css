@@ -12,6 +12,15 @@
   scroll-behavior: smooth;
 }
 
+/* custom.css */
+@media (max-width: 640px) {
+  .sm-items-center {
+    align-items: center;
+  }
+}
+
+
+
 @layer components {
   .max-container {
     max-width: 1440px;
